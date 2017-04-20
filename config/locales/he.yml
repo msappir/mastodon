@@ -14,11 +14,11 @@ he:
       api: API פתוח לישומים ושירותים
       blocks: כלי חסימה והשתקה חזקים
       characters: 500 תווים להודעה
-      chronology: הטורים כרונולוגיים
+      chronology: פידים כרונולוגיים
       ethics: 'עיצוב מוסרי: אין פרסומות, אין מעקב'
       gifv: GIFV וסרטונים קצרים
       privacy: אפשרויות פרטיות נפרדות לכל הודעה
-      public: טורים פומביים
+      public: פידים פומביים
     features_headline: מה מייחד קהילות מבוססות מסטודון
     get_started: על ההתחלה
     links: קישורים
@@ -38,14 +38,14 @@ he:
     people_who_follow: העוקבים של %{name}
     posts: הודעות
     remote_follow: עקיבה מרחוק
-    unfollow: הפסקת עקיבה
+    unfollow: ביטול מעקב
   admin:
     accounts:
       are_you_sure: סופי?
       display_name: שם לתצוגה
       domain: תחום
       edit: עריכה
-      email: אימייל
+      email: 'דוא"ל'
       feed_url: כתובת פיד
       followers: עוקבים
       follows: נעקבים
@@ -59,7 +59,7 @@ he:
         all: הכל
         silenced: מושתקים
         suspended: מושהים
-        title: מיתון הדיון
+        title: ניהול הקהילה
       most_recent_activity: פעילות עדכנית
       most_recent_ip: כתובות אחרונות
       not_subscribed: לא רשום
@@ -87,7 +87,7 @@ he:
       domain: שרת
       new:
         create: יצירת חסימה
-        hint: חסימת השרת לא תמנע יצירת רישומי חשבון במסד הנתונים, אבל תבצע פעולות מיתון דיון מסוימות על חשבונות אלו אוטומטית ורטרואקטיבית.
+        hint: חסימת השרת לא תמנע יצירת רישומי חשבון במסד הנתונים, אבל תבצע פעולות ניהול מסוימות על חשבונות אלו אוטומטית ורטרואקטיבית.
         severity:
           desc_html: "<strong>השתקה</strong> תחביא הודעות מחשבון זה לכל מי שלא עוקב אחריו. <strong>השהיה</strong> תסיר את כל התוכן, מדיה ותכונות הפרופיל שמקושרות לחשבון זה."
           silence: השתקה
@@ -127,7 +127,7 @@ he:
       report: 'דווח #%{id}'
       reported_account: חשבון מדווח
       reported_by: דווח על ידי
-      resolved: פתור
+      resolved: טופל
       silence_account: השתקת חשבון
       status: סטטוס
       suspend_account: השהית חשבון
@@ -138,7 +138,7 @@ he:
     settings:
       click_to_edit: לחיצה כדי לערוך
       contact_information:
-        email: נא להקליד כתובת דואל פומבית
+        email: 'נא להקליד כתובת דוא"ל פומבית'
         label: פרטי התקשרות
         username: נא להכניס שם משתמש
       registrations:
@@ -179,16 +179,16 @@ he:
     error: למצער, היתה שגיאה בחיפוש החשבון המרוחק
     follow: לעקוב
     prompt_html: 'בקשת עקיבה ממך (<strong>%{self}</strong>) אחרי:'
-    title: לעקוב אחרי %{acct}
+    title: 'לעקוב אחרי %{acct}'
   datetime:
     distance_in_words:
       about_x_hours: "%{count} שעות"
       about_x_months: "%{count} חודשים"
       about_x_years: "%{count} שנים"
       almost_x_years: "%{count} שנים"
-      half_a_minute: ממש הרגע
+      half_a_minute: לפני רגע
       less_than_x_minutes: "%{count} דקות"
-      less_than_x_seconds: ממש עכשיו
+      less_than_x_seconds: כרגע
       over_x_years: "%{count} שנים"
       x_days: "%{count} ימים"
       x_minutes: "%{count} דקות"
@@ -208,20 +208,20 @@ he:
     storage: אחסון מדיה
   generic:
     changes_saved_msg: השינויים נשמרו בהצלחה!
-    powered_by: רץ על %{link}
+    powered_by: "רץ על %{link}"
     save_changes: שמור שינויים
     validation_errors:
       one: משהו לא לגמרי בסדר עדיין! אנא הציצו על השגיאות מטה
       other: משהו לא לגמרי בסדר עדיין! אנא הציצו על %{count} השגיאות מטה
   imports:
-    preface: ניתן ליבא מידע מסויים כגון כל הנעקבים או המשתמשים החסומים  לתוך חשבונך על שרת זה, מתוך קבצים שנוצרו על ידי יצוא משרת אחר.
+    preface: ניתן ליבא מידע מסויים כגון כל הנעקבים או המשתמשים החסומים לתוך חשבונך על שרת זה, מתוך קבצים שנוצרו על ידי יצוא משרת אחר.
     success: כל המידע יובא בהצלחה, ויעובד בזמן הקרוב
     types:
       blocking: רשימת חסומים
       following: רשימת נעקבים
       muting: רשימת חסומים
     upload: יבוא
-  landing_strip_html: <strong>%{name}</strong> על השרת <strong>%{domain}</strong>. ניתן לעקוב אחריהם או לדבר איתם בעזרת חשבון על כל שרת קהילה ברחבי הפדרציה. ליצירת חשבון, ניתן<a href="%{sign_up_path}">להרשם כאן</a>.
+  landing_strip_html: <strong>%{name}</strong> נמצא על השרת <strong>%{domain}</strong>. ניתן לעקוב אחריהם או לדבר איתם בעזרת חשבון על כל שרת קהילה ברחבי הפדרציה. ליצירת חשבון, ניתן<a href="%{sign_up_path}">להרשם כאן</a>.
   media_attachments:
     validations:
       images_and_video: לא ניתן להוסיף וידאו לחצרוץ שכבר מכיל תמונות
@@ -231,8 +231,8 @@ he:
       body: 'להלן סיכום זריז של הדברים שקרו על %{instance} מאז ביקורך האחרון ב-%{since}:'
       mention: "%{name} פנה אליך ב:"
       new_followers_summary:
-        one: נוסף לך עוקב! מברוק!
-        other: נוספו לך %{count} עוקבים חדשים! מעולה!
+        one: נוסף לך עוקב! סחתין!
+        other: "נוספו לך %{count} עוקבים חדשים! מעולה!"
       subject:
         one: "התראה חדשה אחת מאז ביקורך האחרון \U0001F418"
         other: "%{count} התראות חדשות \U0001F418"
@@ -240,11 +240,11 @@ he:
       body: 'חצרוצך חובב על ידי %{name}:'
       subject: "חצרוצך חובב על ידי %{name}"
     follow:
-      body: "%{name} עכשיו בעקיבה אחריך!"
-      subject: "%{name} עכשיו בעקיבה אחריך"
+      body: "%{name} עכשיו במעקב אחריך!"
+      subject: "%{name} עכשיו במעקב אחריך"
     follow_request:
-      body: "התקבלה בקשת עקיבה מ-%{name}"
-      subject: 'בקשת עקיבה בהמתנה: %{name}'
+      body: "התקבלה בקשת מעקב מ-%{name}"
+      subject: 'בקשת מעקב בהמתנה: %{name}'
     mention:
       body: 'התקבלה פניה עבורך מ-%{name} ב:'
       subject: התקבלה פניה עבורך מ-%{name}
@@ -276,7 +276,7 @@ he:
     visibilities:
       private: להצגה לעוקבים בלבד
       public: פומבי
-      unlisted: פומבי, אבל לא להצגה בפומבי
+      unlisted: פומבי, אבל לא להצגה בפרהסיה
   stream_entries:
     click_to_show: ללחוץ להצגה
     reblogged: הודהד
@@ -290,7 +290,7 @@ he:
     disable: כיבוי
     enable: הפעלה
     enabled_success: אימות דו-גורמי הופעל בהצלחה
-    instructions_html: "<strong>יש לסרוק קוד QR זה בעזרת Google Authenticator או ישום TOTP דומה על טלפונך</strong>. מעתה ואילך, ישום זה יוכל ליצר קודים לשימוש לצורך כניסה."
+    instructions_html: "<strong>יש לסרוק קוד QR זה בעזרת Google Authenticator או ישום TOTP דומה על טלפונך</strong>. מעתה ואילך, ישום זה יוכל לייצר קודים לשימוש לצורך כניסה."
 lost_recovery_codes: קודי האחזור מאפשרים אחזור גישה לחשבון במידה ומכשירך אבד. במידה וקודי האחזור אבדו, ניתן לייצרם מחדש כאן. תוקף קודי האחזור הישנים יפוג.
     manual_instructions: 'במידה ולא ניתן לסרוק את קוד ה-QR ויש צורך להקליד אותו ידנית, להלן סוד כמוס בלתי מוצפן:'
     recovery_codes_regenerated: קודי האחזור יוצרו בהצלחה
